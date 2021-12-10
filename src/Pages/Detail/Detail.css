@@ -1,0 +1,50 @@
+.detail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.detailImg {
+  width: 500px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.detailText {
+  width: 650px;
+  text-align: justify;
+}
+
+.detailTitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.detailInstruction {
+  margin-bottom: 30px;
+}
+
+.detailLink {
+  text-decoration: none;
+  color: #111;
+  padding: 15px 25px;
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.detailLink:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.back{
+    cursor: pointer;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.back:hover{
+    color: var(--primary-color);
+}
